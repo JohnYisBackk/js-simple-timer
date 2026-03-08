@@ -8,7 +8,7 @@ This project demonstrates how to build a simple timer using JavaScript, includin
 
 ## 🚀 Live Demo
 
-🔗 https://YOUR_USERNAME.github.io/simple-timer-pro/
+🔗 https://johnyisbackk.github.io/js-simple-timer/
 
 ---
 
@@ -28,18 +28,6 @@ This project demonstrates how to build a simple timer using JavaScript, includin
 * HTML5
 * CSS3
 * Vanilla JavaScript
-
----
-
-## 💡 What I Learned
-
-This project helped me practice:
-
-* JavaScript timers (`setInterval`)
-* Time calculations
-* DOM manipulation
-* State management in JavaScript
-* Dark mode implementation
 
 ---
 
