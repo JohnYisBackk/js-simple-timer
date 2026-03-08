@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Simple Timer</title>
+  </head>
+  <body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      🌙
+    </button>
+
+    <main class="app">
+      <section class="timer-card">
+        <p class="eyebrow">Simple Timer</p>
+        <h1 class="title">Stay focused, one session at a time</h1>
+        <p class="subtitle">
+          A clean timer for study, coding, work and deep focus sessions.
+        </p>
+
+        <div class="status-row">
+          <span class="status-label">Status</span>
+          <span class="status-text" id="statusText">Idle</span>
+        </div>
+
+        <div class="timer-display" id="timerDisplay">00:00:00</div>
+
+        <div class="progress-ring">
+          <div class="progress-ring-inner">
+            <span class="progress-label">Ready</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button class="btn btn-primary" id="startBtn">Start</button>
+          <button class="btn btn-secondary" id="pauseBtn">Pause</button>
+          <button class="btn btn-danger" id="resetBtn">Reset</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
